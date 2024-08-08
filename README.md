@@ -1,5 +1,5 @@
 # Heart Disease - ML Prediction
-The goal of this project is to predict if someone has a heart disease or not depending on the data provided.
+Build a heart disease prediction system using logistic regression. Demonstrate end-to-end functionality, from model training and evaluation to making and saving predictions.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -15,6 +15,8 @@ The goal of this project is to predict if someone has a heart disease or not dep
   - [Saving the trained model](#saving-the-trained-model)
 
 ## Project Overview
+**Objective:** Develop a heart disease prediction system using logistic regression to classify whether a person has heart disease based on various health metrics.
+**Outcome:** The project demonstrates a complete workflow from data preparation and model training to prediction and model persistence, showcasing an end-to-end approach to heart disease prediction.
 
 ## Dataset
 
