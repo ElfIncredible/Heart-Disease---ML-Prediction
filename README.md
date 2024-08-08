@@ -49,3 +49,5 @@ Create a LogisticRegression model instance and then trains (or fits) the model o
 - Use the trained logistic regression model to predict whether the person has heart disease and prints the result.
 
 ### Saving the trained model
+- Save and load a trained logistic regression model and scaler using pickle.
+- Prepare, standardize, and predict heart disease for a new input instance using the loaded model and scaler.
