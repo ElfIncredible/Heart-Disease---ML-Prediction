@@ -5,12 +5,14 @@ The goal of this project is to predict if someone has a heart disease or not dep
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
 - [Machine Learning Prediction](#machine-learning-prediction)
-- [Install dependencies](#install-dependencies)
-- [Data collection and processing](#data-collection-and-processing)
-- [Splitting features and target](#splitting-features-and-target)
-- [Splitting training data and test data](#splitting-training-data-and-test-data)
-- [Model training - Logistic Regression](#model-training---logistic-regression)
-- [Model evaluation - Accuracy score](#model-evaluation---accuracy-score)
+  - [Install dependencies](#install-dependencies)
+  - [Data collection and processing](#data-collection-and-processing)
+  - [Splitting features and target](#splitting-features-and-target)
+  - [Splitting training data and test data](#splitting-training-data-and-test-data)
+  - [Model training - Logistic Regression](#model-training---logistic-regression)
+  - [Model evaluation - Accuracy score](#model-evaluation---accuracy-score)
+  - [Making a predictive system](#making-a-predictive-system)
+  - [Saving the trained model](#saving-the-trained-model)
 
 ## Project Overview
 
@@ -38,3 +40,12 @@ Set up the necessary imports for preprocessing data, splitting it into training 
 Create a LogisticRegression model instance and then trains (or fits) the model on the training data (X_train and y_train). This process involves adjusting the model's parameters to learn the relationship between the features and the target variable, enabling it to make predictions on new data.
 
 ### Model evaluation - Accuracy score
+- Evaluate the performance of the trained LogisticRegression model by calculating its accuracy on both the training and testing datasets.
+- Make predictions on the training data and the test data
+- Compute and print the accuracy scores for each.
+
+### Making a predictive system
+- Prepare a single instance of input data for prediction by reshaping it into the required format,
+- Use the trained logistic regression model to predict whether the person has heart disease and prints the result.
+
+### Saving the trained model
